@@ -13,7 +13,7 @@ def home():
     return'hello homie'
 
 @app.route('/home/v1')
-def home():
+def home_v1():
     return'hello to me'
 
 
