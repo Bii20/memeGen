@@ -12,6 +12,10 @@ def Home():
 def home():
     return'hello homie'
 
+@app.route('/home/v1')
+def home():
+    return'hello to me'
+
 
 
 if __name__ == '__main__':
